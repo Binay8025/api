@@ -28,4 +28,10 @@ jobs:
         run: mvn test
 
       - name: Deploy
-        run: echo "Deploying application..." # Replace with your deploy command
+        run: echo "Deploying application..."
+        run: mvn clean 'deploy'
+
+
+
+        
+      
